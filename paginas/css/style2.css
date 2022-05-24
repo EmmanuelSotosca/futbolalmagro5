@@ -1,0 +1,42 @@
+body
+{
+
+    background-color: aquamarine;
+
+}
+    header{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 60px;
+        background-color: coral;
+        position:sticky;
+        top: 0px;
+    
+     }
+
+     ul{
+        display: inline;
+        list-style-type: none ;
+       
+    }
+    
+ li{
+    display: inline;
+ }
+
+ .hacer__haz
+ {
+    background-color: rgb(136, 14, 173);
+    border: 2px solid;
+    
+
+ }
+
+ .robo_tt
+ {
+    border: 4px solid brown;
+
+    
+ }

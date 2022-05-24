@@ -1,0 +1,44 @@
+body
+    {
+        background-color: chartreuse;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 60px;
+        background-color: coral;
+        position:sticky;
+        top: 0px;
+    
+     }
+
+     ul{
+        display: inline;
+        list-style-type: none ;
+       
+    }
+    
+ li{
+    display: inline;
+ }
+
+
+
+
+.gato__perro
+{
+    color: blueviolet;
+}
+
+.rebo__rev
+    {
+    height: 400px;
+    background-color: burlywood;
+    border: 2px solid;
+    width: 1150px;
+    
+}
+
