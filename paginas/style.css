@@ -1,0 +1,387 @@
+
+ ul{
+    display: inline;
+    list-style-type: none ;
+   
+  } 
+  
+  
+  
+  body {
+   background-image: linear-gradient(to top, rgb(11, 71, 141),rgb(9, 137, 183));
+    padding: 50px;
+    
+    
+    }
+  
+  li{
+   display: inline;
+  
+  }
+  h1{
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    
+  }
+  
+  h2{
+    text-align: center;
+   color: rgb(255, 255, 255);
+  }
+  
+  
+  .flex
+  {
+  display: flex;
+  gap: 10px;
+  
+  }
+ 
+  /*botones */
+  button
+  {
+    text-align: center;
+  background-color: rgb(24, 118, 0);
+  padding: 15px;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 30px;
+  border: 15px solid rgb(71, 37, 1);
+  }
+  .numero__boton
+  {
+    text-align: center;
+  }
+  button:hover {
+  
+  transform: scale(1.2);
+  text-align: center;
+  }
+  
+  .boton__primero
+  {
+   text-align: center;
+   transition: all 2ms;
+  }
+  
+ 
+
+  /* campeonatos */
+  .copas__libertadores
+  {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  color: rgb(100, 57, 11);
+  padding: 50px;
+  background-color: rgb(218, 201, 105);
+  border-radius: 20px;
+  height: 980px;
+  width: 400px;
+  margin-bottom: 10px;
+  }
+  .Copa__washington
+  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: rgb(95, 41, 3);
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgb(218, 201, 105);
+    margin-bottom: 10px;  
+    width: 400px;
+    
+  }
+.Liga__nacional{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  color: rgb(95, 41, 3);
+  padding: 50px;
+  border-radius: 20px;
+  background-color: rgb(218, 201, 105);
+  height: 100%;
+  margin-bottom: 10px;
+  width: 400px;
+  text-align: center;
+  
+
+}
+
+  /* cambiar tipo de letra */
+.barra__opciones {
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+  font-weight: 100%;
+  padding: 10px;
+  margin-bottom: 70px;
+  
+  text-align: center;
+  
+}
+
+/* cambiar el color de fondo a la barra */
+
+.barra__navegacion
+{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: #3f8003;
+  border-radius: 50px;
+}
+
+
+/*logo barra */
+.logotipo__imagen :hover
+{
+  
+  padding: 10px;
+  height: 100%;
+  transition: all 2ms;
+  text-align: center;
+}
+
+/*clubes */
+.deportivo__internacional
+{
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(82, 36, 3);
+  margin-left: 10px;
+}
+.brescia__futbol
+{
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(82, 36, 3);
+  margin-left: 40px;
+}
+.badajos__futbol
+{
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(82, 36, 3);
+  margin-left: 40px;
+}
+.aston__futbol
+{
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(82, 36, 3);
+  margin-left: 50px;
+}
+.torino__futbol
+{
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(82, 36, 3);
+  margin-left: 40px;
+}
+.portuguesa__futbol
+{
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(82, 36, 3);
+  margin-left: 60px;
+}
+
+
+.seccion__campeones
+{
+  background-color: rgb(241, 161, 2);
+  border-radius: 20px;
+  padding: 20px;
+}
+/*inicio */
+.titulo__color{
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(104, 61, 5);
+  padding: 10px;
+  border-radius: 30px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.inicio__futbolprincipal
+{
+  background-color: rgb(222, 122, 9);
+  border-radius: 20px;
+  padding: 30px;
+
+}
+.carrousel__item
+{
+  font-size: large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*zona videos */
+.videos__futbol5
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+background-color: brown;
+border-radius: 20px;
+padding: 30px;
+}
+.video__bajo
+{
+
+  
+  background-color: #49b165;
+  padding: 30px;
+  border-radius: 20px;
+  width: auto;
+}
+.video__alto
+{
+  
+  background-color: #49b165;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  width: auto;
+}
+/*zona horarios */
+.horarios__futbolsemanal
+{
+
+  background-color: rgb(161, 101, 3);
+  border-radius: 20px;
+  padding: 40px;
+  width: auto;
+}
+.formulario__control
+{
+  font-size: large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: aquamarine;
+  border-radius: 20px;
+  text-align: center;
+}
+.formulario__grupo
+{
+  font-size: large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: antiquewhite;
+  padding: 20px;
+  text-align: center;
+}
+.Horarios__futbol{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif ;
+  color: rgb(252, 252, 252);
+  }
+  .localizacion__futbol
+  {
+    width: 100%;
+    height: 100%;
+  }
+  .direccion__futbol
+  {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .escudo__almagro
+  {
+    padding: 70px;
+    text-align: center;
+    width: auto;
+  }
+  
+.Vitrina__campeonatos
+{
+  background-color: #3b7108;
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+.trofeos__ganados
+{
+  width: 100%;
+}
+.estadisticas__futbol
+{
+  background-color: #3f8003;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.frase__futbol
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+  text-align: center;
+  font-size: larger;
+  width: auto;
+}
+.escudo__imagen
+{
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width:800px) {
+  .main{
+    width: 100%;
+  }
+  aside{
+    width: 100%;
+  }
+}
+@media screen and (max-width:400px) {
+  .content{
+    width: 100%;
+  }
+}
+.botones__dereserva
+{
+  text-align: center;
+  
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.col__informacion
+{
+  text-align: center;
+  background-color: #b98e0d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding: 10px;
+  
+}
+.letra__campeonatos{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(160, 92, 9);
+  
+  text-align: center;
+}
+.letra__reserva{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(239, 244, 244);
+  text-align: center;
+  font-size: larger;
+}
+.jugador__pegada
+{
+  padding: 10px;
+}
+.boton__reserva
+{
+  text-align: center;
+}
+.telefonos__1
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(239, 244, 244);
+  text-align: center;
+  font-size: larger;
+}

@@ -5,122 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IF=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="css/style5.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+  
     
 </head>
+
+<header>
 <title>Futbol 5</title>
 <body>
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <nav class="barra__navegacion">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
       <span class="navbar-toggler-icon"></span>
     </button>
+  
     
+    
+  <!-- enlaces -->
+  <section class="modelado__barra">
     <!-- logo -->
-    <a class="navbar-brand" href="index.html">
-      <img src="https://www.hoysejuega.com/uploads/Modules/ImagenesComplejos/800_600_futbol-5-y-5.jpg" width="30" height="30" alt="">
+    <a class="logotipo__imagen" href="index.html">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Escudo_del_Club_Almagro.svg/1200px-Escudo_del_Club_Almagro.svg.png" width="200" height="200" alt="loguito">
     </a>
+  <div class="barra__opciones" id="opciones">   
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav__link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav__link" href="campeonatos.html">Campeonatos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav__link" href="historia.html">Historia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav__link" href="horarios.html">Horarios</a>
+        <li class="nav-item">
+          <a class="nav__link" href="videos.html">Campeones</a>
+      </li>            
+    </ul>
+  </div>
+</section>
+</nav>
+  
+
     
-    <!-- enlaces -->
-    <div class="collapse navbar-collapse" id="opciones">   
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="campeonatos.html">Campeonatos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Historia.html">Historia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="horarios.html">Horarios</a>
-          <li class="nav-item">
-            <a class="nav-link" href="videos.html">Videos</a>
-        </li>            
-      </ul>
-    </div>
-  </nav>
-    
 
 
 
-<header>
 </header>
-<main>
+<main>  
+    <article class="horarios">
+    <h1 class="Horarios__futbol">Horarios</h1>
+    </article>
  
- 
- 
-
-
-    <h1>Horarios</h1>
-
-    <p>Los horarios son los siguientes:</p>
+  <section class="horarios__futbolsemanal ">
+    <p class="horario__titulo">Los horarios son los siguientes:</p>
     
-    <div class="container">
+    <div class="container animate__animated animate__fadeInLeft">
       <div class="row">
-        <div class="col">Lunes y martes</div>
-        <div class="col">9 a 18 hs</div>
+        <div class="col__informacion">Lunes y martes estan disponibles las canchas 1 y 2. Tambien podes entrenar en la cancha 3 con varios de nuestro profesores</div>
+        <div class="col__informacion ">9 a 18 hs</div>
         <div class="w-100"></div>
-        <div class="col">Miercoles y jueves</div>
-        <div class="col">12 a 21 hs</div>
+        <div class="col__informacion">Miercoles y jueves estan disponible la cancha 3 y 4. Estos 2 dias podes ejercitar en nuestro gimnasio apartado!</div>
+        <div class="col__informacion">12 a 21 hs</div>
       </div>
       <div class="row">
-        <div class="col">Viernes y Sabado</div>
-        <div class="col">15 a 23 hs</div>
+        <div class="col__informacion ">Viernes y Sabado estan disponibles todas nuestras canchas. Podes traer a tu equipo a disputar campeonatos!</div>
+        <div class="col__informacion "><p>15 a 23hs</p> </div>
         <div class="w-100"></div>
       </div>
     </div>
-     <h2>Reservas</h2>
-     <p>Deja tus datos para reservar!</p>
+    <section class="seccion__formulario animate__animated animate__fadeInLeft">
+     <h1>Reservas</h1>
+     <p class="letra__reserva">Deja tus datos para reservar!</p>
       <form role="form">
-        <div class="form-group">
-          <label for="ejemplo_email_1">Email</label>
-          <input type="email" class="form-control" id="ejemplo_email_1"
+        <div class="formulario__grupo">
+          <label for="email_1">Email:</label>
+          <input type="email" class="formulario__control" id="email"
                  placeholder="Introduce tu email">
         </div>
-        <div class="form-group">
-          <label for="ejemplo_password_1">Contraseña</label>
-          <input type="password" class="form-control" id="ejemplo_password_1"
+        <div class="formulario__grupo">
+          <label for="password_1">Contraseña:</label>
+          <input type="password" class="formulario__control" id="password"
                  placeholder="Contraseña">
         </div>
-        <div class="form-group">
-          <label for="ejemplo_archivo_1">Adjuntar archivo con apta medica</label>
-          <input type="file" id="ejemplo_archivo_1">
+        <div class="formulario__grupo">
+          <label for="archivo_1">Adjuntar archivo con apta medica</label>
+          <input type="file" id="archivo">
+          
           
         </div>
-        <div class="checkbox">
+        <div class="formulario__grupo">
           <label>
-            <input type="checkbox"> Marcá en la casilla si jugas 1 hora extra
+            <p>Marca en las casillas , en que cancha queres jugar , fecha y hora, también si jugas 1 hora extra</p>
+            
+            <input type="checkbox"><p> hora extra</p> 
+            <input type="checkbox"> <p> Cancha 1 , cesped sintetico</p>
+            <input type="checkbox"> <p> Cancha 2 , cesped tradicional</p>
+            <input type="checkbox"> <p> Cancha 3 , cancha de cemento</p>
+            <input type="checkbox"> <p>Cancha 4 , cancha de caucho</p>
+            <input type="datetime-local">
           </label>
         </div>
-        <button type="submit" class="boton__reserva">Reservar</button>
+        <section class="boton__reserva"><button type="submit" class="boton__reserva">Reservar</button></section>
+      </section>
      </form>
-
+     
      <h1>Contacto</h1>
 
 
 
-    <p>Telefonos:</p><ul><li><button class="numero3">1128748790</button><a href="numero.html"></a></li>
-        <li><button class="numero1">4980748590</button><a href="numero.html"></a></li>
-        <li><button class="numero2">4561648690</button><a href="numero.html"></a></li></ul>
-       <p>Correo electrónico:</p> <li><a href="mail.html">futbolalmagro5@gmail.com</a></li>
+    <p class="telefonos__1">Podes contactarnos a los siguientes numeros telefonicos:</p><section class="botones__dereserva"><ul><li><button class="numero__boton">1128748790</button><a href="numero.html"></a></li>
+        <li><button class="numero__boton">4980748590</button><a href="numero.html"></a></li>
+        </ul></section>
+       <p> o podes tambien enviarnos un correo electrónico a:</p> <a href="mail.html">futbolalmagro5@gmail.com</a>
        <form method="GET">
-       <li><input></input></li>
-       <li><input type="submit" value="Enviar Formulario"/></li>
-       <li><input type="reset" value="Limpiar formulario"/></li>
+       <input></input>
+       <input type="submit" value="Enviar Formulario"/>
+       <input type="reset" value="Limpiar formulario"/>
+
        
-</form>
+  </form>
+ 
 
-
-  
-
-
+    </section>
+    
 </main>
 
 
 <footer>
-    <p>Direccion: quintino bocayuva 552</p>
+    
+    <p>Todos los derechos reservados © </p>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
