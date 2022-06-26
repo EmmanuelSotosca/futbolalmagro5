@@ -76,9 +76,10 @@
   padding: 50px;
   background-color: rgb(218, 201, 105);
   border-radius: 20px;
-  height: 980px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   margin-bottom: 10px;
+  text-align: center;
   }
   .Copa__washington
   {
@@ -89,7 +90,8 @@
     border-radius: 20px;
     background-color: rgb(218, 201, 105);
     margin-bottom: 10px;  
-    width: 400px;
+    width: 100%;
+    text-align: center;
     
   }
 .Liga__nacional{
@@ -101,8 +103,9 @@
   background-color: rgb(218, 201, 105);
   height: 100%;
   margin-bottom: 10px;
-  width: 400px;
+  width: 100%;
   text-align: center;
+  
   
 
 }
@@ -122,13 +125,26 @@
 
 /* cambiar el color de fondo a la barra */
 
-.barra__navegacion
+.navegaciones__pagina
 {
+  background-color: #3b7108;
+}
+.frase__centenaria
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+  color: rgb(170, 99, 6);
+  text-align: center;
+  margin-top: 10px;
+}
+.escudito__almagro :hover
+{
+  transition: all 2ms;
+  font-size: small;
   width: 100%;
   height: 100%;
   padding: 10px;
-  background-color: #3f8003;
-  border-radius: 50px;
+  text-align: center;
 }
 
 
@@ -149,6 +165,7 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(82, 36, 3);
   margin-left: 10px;
+  text-align: center;
 }
 .brescia__futbol
 {
@@ -156,6 +173,7 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(82, 36, 3);
   margin-left: 40px;
+  text-align: center;
 }
 .badajos__futbol
 {
@@ -163,6 +181,7 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(82, 36, 3);
   margin-left: 40px;
+  text-align: center;
 }
 .aston__futbol
 {
@@ -170,9 +189,11 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(82, 36, 3);
   margin-left: 50px;
+  text-align: center;
 }
 .torino__futbol
 {
+  text-align: center;
   font-size: x-large;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(82, 36, 3);
@@ -180,6 +201,7 @@
 }
 .portuguesa__futbol
 {
+  text-align: center;
   font-size: x-large;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(82, 36, 3);
@@ -232,18 +254,19 @@ padding: 30px;
 
   
   background-color: #49b165;
-  padding: 30px;
+  padding: 10px;
   border-radius: 20px;
-  width: auto;
+  width: 80%;
+  height: 80%;
 }
 .video__alto
 {
   
   background-color: #49b165;
-  padding: 30px;
+  padding: 10px;
   border-radius: 20px;
-  margin-bottom: 40px;
-  width: auto;
+  height: 80%;
+  width: 80%;
 }
 /*zona horarios */
 .horarios__futbolsemanal
@@ -257,15 +280,15 @@ padding: 30px;
 .formulario__control
 {
   font-size: large;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: aquamarine;
   border-radius: 20px;
   text-align: center;
 }
 .formulario__grupo
 {
-  font-size: large;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
   color: antiquewhite;
   padding: 20px;
   text-align: center;
@@ -326,8 +349,10 @@ padding: 30px;
 .escudo__imagen
 {
   text-align: center;
+  padding: 10px;
   width: 100%;
-  height: auto;
+  
+  
 }
 @media screen and (max-width:800px) {
   .main{
@@ -337,7 +362,7 @@ padding: 30px;
     width: 100%;
   }
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:300px) {
   .content{
     width: 100%;
   }
@@ -370,10 +395,7 @@ padding: 30px;
   text-align: center;
   font-size: larger;
 }
-.jugador__pegada
-{
-  padding: 10px;
-}
+
 .boton__reserva
 {
   text-align: center;
@@ -384,4 +406,23 @@ padding: 30px;
   color: rgb(239, 244, 244);
   text-align: center;
   font-size: larger;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.Tablas__campeonatos
+{
+  text-align: center;
+  padding: 10px;
+}
+.color__inicio{
+  background-color: #3b7108;
+  padding: 30px;
+  
+}
+.links__almagro
+{
+  padding: 10px;
+  color: chocolate;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
 }
